@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3506C94F1DE2D57D00B6912B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3506C94E1DE2D57D00B6912B /* main.m */; };
+		3506C9521DE2D57D00B6912B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3506C9511DE2D57D00B6912B /* AppDelegate.m */; };
+		3506C9551DE2D57D00B6912B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3506C9541DE2D57D00B6912B /* ViewController.m */; };
+		3506C9581DE2D57D00B6912B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3506C9561DE2D57D00B6912B /* Main.storyboard */; };
+		3506C95A1DE2D57D00B6912B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3506C9591DE2D57D00B6912B /* Assets.xcassets */; };
+		3506C95D1DE2D57D00B6912B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3506C95B1DE2D57D00B6912B /* LaunchScreen.storyboard */; };
+		3506C9681DE2D57D00B6912B /* netgameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3506C9671DE2D57D00B6912B /* netgameTests.m */; };
+		3506C9731DE2D57D00B6912B /* netgameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3506C9721DE2D57D00B6912B /* netgameUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3506C9641DE2D57D00B6912B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3506C9421DE2D57D00B6912B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3506C9491DE2D57D00B6912B;
+			remoteInfo = netgame;
+		};
+		3506C96F1DE2D57D00B6912B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3506C9421DE2D57D00B6912B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3506C9491DE2D57D00B6912B;
+			remoteInfo = netgame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3506C94A1DE2D57D00B6912B /* netgame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = netgame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3506C94E1DE2D57D00B6912B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3506C9501DE2D57D00B6912B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3506C9511DE2D57D00B6912B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3506C9531DE2D57D00B6912B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3506C9541DE2D57D00B6912B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3506C9571DE2D57D00B6912B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3506C9591DE2D57D00B6912B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3506C95C1DE2D57D00B6912B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3506C95E1DE2D57D00B6912B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3506C9631DE2D57D00B6912B /* netgameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = netgameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3506C9671DE2D57D00B6912B /* netgameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = netgameTests.m; sourceTree = "<group>"; };
+		3506C9691DE2D57D00B6912B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3506C96E1DE2D57D00B6912B /* netgameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = netgameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3506C9721DE2D57D00B6912B /* netgameUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = netgameUITests.m; sourceTree = "<group>"; };
+		3506C9741DE2D57D00B6912B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3506C9471DE2D57D00B6912B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3506C9601DE2D57D00B6912B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3506C96B1DE2D57D00B6912B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3506C9411DE2D57D00B6912B = {
+			isa = PBXGroup;
+			children = (
+				3506C94C1DE2D57D00B6912B /* netgame */,
+				3506C9661DE2D57D00B6912B /* netgameTests */,
+				3506C9711DE2D57D00B6912B /* netgameUITests */,
+				3506C94B1DE2D57D00B6912B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3506C94B1DE2D57D00B6912B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3506C94A1DE2D57D00B6912B /* netgame.app */,
+				3506C9631DE2D57D00B6912B /* netgameTests.xctest */,
+				3506C96E1DE2D57D00B6912B /* netgameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3506C94C1DE2D57D00B6912B /* netgame */ = {
+			isa = PBXGroup;
+			children = (
+				3506C9501DE2D57D00B6912B /* AppDelegate.h */,
+				3506C9511DE2D57D00B6912B /* AppDelegate.m */,
+				3506C9531DE2D57D00B6912B /* ViewController.h */,
+				3506C9541DE2D57D00B6912B /* ViewController.m */,
+				3506C9561DE2D57D00B6912B /* Main.storyboard */,
+				3506C9591DE2D57D00B6912B /* Assets.xcassets */,
+				3506C95B1DE2D57D00B6912B /* LaunchScreen.storyboard */,
+				3506C95E1DE2D57D00B6912B /* Info.plist */,
+				3506C94D1DE2D57D00B6912B /* Supporting Files */,
+			);
+			path = netgame;
+			sourceTree = "<group>";
+		};
+		3506C94D1DE2D57D00B6912B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3506C94E1DE2D57D00B6912B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3506C9661DE2D57D00B6912B /* netgameTests */ = {
+			isa = PBXGroup;
+			children = (
+				3506C9671DE2D57D00B6912B /* netgameTests.m */,
+				3506C9691DE2D57D00B6912B /* Info.plist */,
+			);
+			path = netgameTests;
+			sourceTree = "<group>";
+		};
+		3506C9711DE2D57D00B6912B /* netgameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3506C9721DE2D57D00B6912B /* netgameUITests.m */,
+				3506C9741DE2D57D00B6912B /* Info.plist */,
+			);
+			path = netgameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3506C9491DE2D57D00B6912B /* netgame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3506C9771DE2D57D00B6912B /* Build configuration list for PBXNativeTarget "netgame" */;
+			buildPhases = (
+				3506C9461DE2D57D00B6912B /* Sources */,
+				3506C9471DE2D57D00B6912B /* Frameworks */,
+				3506C9481DE2D57D00B6912B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = netgame;
+			productName = netgame;
+			productReference = 3506C94A1DE2D57D00B6912B /* netgame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3506C9621DE2D57D00B6912B /* netgameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3506C97A1DE2D57D00B6912B /* Build configuration list for PBXNativeTarget "netgameTests" */;
+			buildPhases = (
+				3506C95F1DE2D57D00B6912B /* Sources */,
+				3506C9601DE2D57D00B6912B /* Frameworks */,
+				3506C9611DE2D57D00B6912B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3506C9651DE2D57D00B6912B /* PBXTargetDependency */,
+			);
+			name = netgameTests;
+			productName = netgameTests;
+			productReference = 3506C9631DE2D57D00B6912B /* netgameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3506C96D1DE2D57D00B6912B /* netgameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3506C97D1DE2D57D00B6912B /* Build configuration list for PBXNativeTarget "netgameUITests" */;
+			buildPhases = (
+				3506C96A1DE2D57D00B6912B /* Sources */,
+				3506C96B1DE2D57D00B6912B /* Frameworks */,
+				3506C96C1DE2D57D00B6912B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3506C9701DE2D57D00B6912B /* PBXTargetDependency */,
+			);
+			name = netgameUITests;
+			productName = netgameUITests;
+			productReference = 3506C96E1DE2D57D00B6912B /* netgameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3506C9421DE2D57D00B6912B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = luyang;
+				TargetAttributes = {
+					3506C9491DE2D57D00B6912B = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = S6C7M3S5Q2;
+						ProvisioningStyle = Automatic;
+					};
+					3506C9621DE2D57D00B6912B = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = S6C7M3S5Q2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3506C9491DE2D57D00B6912B;
+					};
+					3506C96D1DE2D57D00B6912B = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = S6C7M3S5Q2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3506C9491DE2D57D00B6912B;
+					};
+				};
+			};
+			buildConfigurationList = 3506C9451DE2D57D00B6912B /* Build configuration list for PBXProject "netgame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3506C9411DE2D57D00B6912B;
+			productRefGroup = 3506C94B1DE2D57D00B6912B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3506C9491DE2D57D00B6912B /* netgame */,
+				3506C9621DE2D57D00B6912B /* netgameTests */,
+				3506C96D1DE2D57D00B6912B /* netgameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3506C9481DE2D57D00B6912B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3506C95D1DE2D57D00B6912B /* LaunchScreen.storyboard in Resources */,
+				3506C95A1DE2D57D00B6912B /* Assets.xcassets in Resources */,
+				3506C9581DE2D57D00B6912B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3506C9611DE2D57D00B6912B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3506C96C1DE2D57D00B6912B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3506C9461DE2D57D00B6912B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3506C9551DE2D57D00B6912B /* ViewController.m in Sources */,
+				3506C9521DE2D57D00B6912B /* AppDelegate.m in Sources */,
+				3506C94F1DE2D57D00B6912B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3506C95F1DE2D57D00B6912B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3506C9681DE2D57D00B6912B /* netgameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3506C96A1DE2D57D00B6912B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3506C9731DE2D57D00B6912B /* netgameUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3506C9651DE2D57D00B6912B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3506C9491DE2D57D00B6912B /* netgame */;
+			targetProxy = 3506C9641DE2D57D00B6912B /* PBXContainerItemProxy */;
+		};
+		3506C9701DE2D57D00B6912B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3506C9491DE2D57D00B6912B /* netgame */;
+			targetProxy = 3506C96F1DE2D57D00B6912B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3506C9561DE2D57D00B6912B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3506C9571DE2D57D00B6912B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3506C95B1DE2D57D00B6912B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3506C95C1DE2D57D00B6912B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3506C9751DE2D57D00B6912B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3506C9761DE2D57D00B6912B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3506C9781DE2D57D00B6912B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S6C7M3S5Q2;
+				INFOPLIST_FILE = netgame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XR.netgame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3506C9791DE2D57D00B6912B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S6C7M3S5Q2;
+				INFOPLIST_FILE = netgame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XR.netgame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3506C97B1DE2D57D00B6912B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = S6C7M3S5Q2;
+				INFOPLIST_FILE = netgameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XR.netgameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/netgame.app/netgame";
+			};
+			name = Debug;
+		};
+		3506C97C1DE2D57D00B6912B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = S6C7M3S5Q2;
+				INFOPLIST_FILE = netgameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XR.netgameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/netgame.app/netgame";
+			};
+			name = Release;
+		};
+		3506C97E1DE2D57D00B6912B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = S6C7M3S5Q2;
+				INFOPLIST_FILE = netgameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XR.netgameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = netgame;
+			};
+			name = Debug;
+		};
+		3506C97F1DE2D57D00B6912B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = S6C7M3S5Q2;
+				INFOPLIST_FILE = netgameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XR.netgameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = netgame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3506C9451DE2D57D00B6912B /* Build configuration list for PBXProject "netgame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3506C9751DE2D57D00B6912B /* Debug */,
+				3506C9761DE2D57D00B6912B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3506C9771DE2D57D00B6912B /* Build configuration list for PBXNativeTarget "netgame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3506C9781DE2D57D00B6912B /* Debug */,
+				3506C9791DE2D57D00B6912B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3506C97A1DE2D57D00B6912B /* Build configuration list for PBXNativeTarget "netgameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3506C97B1DE2D57D00B6912B /* Debug */,
+				3506C97C1DE2D57D00B6912B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3506C97D1DE2D57D00B6912B /* Build configuration list for PBXNativeTarget "netgameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3506C97E1DE2D57D00B6912B /* Debug */,
+				3506C97F1DE2D57D00B6912B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3506C9421DE2D57D00B6912B /* Project object */;
+}
