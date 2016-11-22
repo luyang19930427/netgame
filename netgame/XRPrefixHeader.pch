@@ -1,0 +1,91 @@
+//
+//  PrefixHeader.pch
+//  Predict
+//
+//  Created by 杜宁 on 2016/11/21.
+//  Copyright © 2016年 xinrun. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "AppDelegate.h"
+#import "MJRefresh.h"
+#import "AFNetworking.h"
+#import "UIImageView+WebCache.h"
+#import "MBProgressHUD.h"
+#import "XRBaseViewController.h"
+#import "XRNavigationViewController.h"
+
+//UI
+#import "XRFont.h"
+#import "FactoryUI.h"
+
+//Config
+#import "XRDeviceMacro.h"
+#import "XRFontMacro.h"
+#import "XRGeometryMacro.h"
+#import "XRImageMacro.h"
+#import "XRColorMacro.h"
+
+//Category
+#import "NSDate+XRCategory.h"
+#import "NSObject+XRCategory.h"
+#import "UIView+XRCategory.h"
+#import "UITableViewCell+XRCategory.h"
+#import "UICollectionViewCell+XRCategory.h"
+#import "UIApplication+XRCategory.h"
+#import "UIDevice+XRCategory.h"
+#import "NSString+XRCategory.h"
+#import "NSDictionary+XRCategory.h"
+#import "UITableView+YYAdd.h"
+#import "UIBarButtonItem+Extension.h"
+#import "UIColor+Extend.h"
+
+#endif
+
+#define AppleID @""
+//待修改！
+#define WXAppId @"wxf580296d844e98ff"
+#define WXAppSecret @"868df3084a439b202dce9af5c3efb8a4"
+#define BlockURL @"https://api.weibo.com/oauth2/default.html"
+#define QQAppId @"1105382026"
+#define QQAppKey @"ZA1riQMmkbSnkGtJ"
+#define SinaAppKey @"921091719"
+#define SinaSecret @"45ca3e38a73a4df5756e76b730432139"
+
+
+//#define XRNumberPath [[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject] stringByAppendingPathComponent:@"number.plist"]
+//
+//#define XRAccountPath [[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject] stringByAppendingPathComponent:@"account.archive"]
+//
+//#define XRUserMessagePath [[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject] stringByAppendingPathComponent:@"auxinfo.plist"]
+
+#define XRFigure(figure) (iPhone6P ? (figure) * 1.5f: figure)
+#define XRFigure2(figure) (iPhone6P ? (figure) * 1.2f: figure)
+
+// 通知中心
+#define XRNotificationCenter [NSNotificationCenter defaultCenter]
+
+//国际化字符串
+#define LocalStr(string) NSLocalizedString(string, nil)
+//简体中文
+#define isZhHans [[[NSLocale preferredLanguages] firstObject] hasPrefix:@"zh-Hans"]
+//英文
+#define isEn [[[NSLocale preferredLanguages] firstObject] hasPrefix:@"en"]
+
+
+//block循环引用
+#define weakify(var)   __weak typeof(var) weakSelf = var
+#define strongify(var) __strong typeof(var) strongSelf = var
+
+#ifdef DEBUG // 处于开发阶段
+#define XRLog(...) NSLog(__VA_ARGS__)
+#else // 处于发布阶段
+#define XRLog(...)
+#endif
+
+#endif /* PrefixHeader_pch */

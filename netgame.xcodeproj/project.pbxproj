@@ -7,14 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3506C94F1DE2D57D00B6912B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3506C94E1DE2D57D00B6912B /* main.m */; };
-		3506C9521DE2D57D00B6912B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3506C9511DE2D57D00B6912B /* AppDelegate.m */; };
-		3506C9551DE2D57D00B6912B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3506C9541DE2D57D00B6912B /* ViewController.m */; };
-		3506C9581DE2D57D00B6912B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3506C9561DE2D57D00B6912B /* Main.storyboard */; };
+		2E7AAC4C1712AE9FB084A4FA /* libPods-netgame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 812254A834A83BE931EBB034 /* libPods-netgame.a */; };
 		3506C95A1DE2D57D00B6912B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3506C9591DE2D57D00B6912B /* Assets.xcassets */; };
 		3506C95D1DE2D57D00B6912B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3506C95B1DE2D57D00B6912B /* LaunchScreen.storyboard */; };
 		3506C9681DE2D57D00B6912B /* netgameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3506C9671DE2D57D00B6912B /* netgameTests.m */; };
 		3506C9731DE2D57D00B6912B /* netgameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3506C9721DE2D57D00B6912B /* netgameUITests.m */; };
+		3506C9941DE301EE00B6912B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3506C9881DE301EE00B6912B /* ViewController.m */; };
+		3506C9951DE301EE00B6912B /* XRAPIAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 3506C98C1DE301EE00B6912B /* XRAPIAgent.m */; };
+		3506C9961DE301EE00B6912B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3506C9901DE301EE00B6912B /* AppDelegate.m */; };
+		3506C9971DE301EE00B6912B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3506C9911DE301EE00B6912B /* main.m */; };
+		3506C9D51DE3F92100B6912B /* NSData+XRCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3506C9BA1DE3F92100B6912B /* NSData+XRCategory.m */; };
+		3506C9D61DE3F92100B6912B /* NSDate+XRCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3506C9BC1DE3F92100B6912B /* NSDate+XRCategory.m */; };
+		3506C9D71DE3F92100B6912B /* NSDictionary+XRCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3506C9BE1DE3F92100B6912B /* NSDictionary+XRCategory.m */; };
+		3506C9D81DE3F92100B6912B /* NSObject+XRCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3506C9C01DE3F92100B6912B /* NSObject+XRCategory.m */; };
+		3506C9D91DE3F92100B6912B /* NSString+XRCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3506C9C21DE3F92100B6912B /* NSString+XRCategory.m */; };
+		3506C9DA1DE3F92100B6912B /* UIApplication+XRCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3506C9C41DE3F92100B6912B /* UIApplication+XRCategory.m */; };
+		3506C9DB1DE3F92100B6912B /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3506C9C61DE3F92100B6912B /* UIBarButtonItem+Extension.m */; };
+		3506C9DC1DE3F92100B6912B /* UICollectionViewCell+XRCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3506C9C81DE3F92100B6912B /* UICollectionViewCell+XRCategory.m */; };
+		3506C9DD1DE3F92100B6912B /* UIColor+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 3506C9CA1DE3F92100B6912B /* UIColor+Extend.m */; };
+		3506C9DE1DE3F92100B6912B /* UIDevice+XRCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3506C9CC1DE3F92100B6912B /* UIDevice+XRCategory.m */; };
+		3506C9DF1DE3F92100B6912B /* UITableView+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 3506C9CE1DE3F92100B6912B /* UITableView+YYAdd.m */; };
+		3506C9E01DE3F92100B6912B /* UITableViewCell+XRCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3506C9D01DE3F92100B6912B /* UITableViewCell+XRCategory.m */; };
+		3506C9E11DE3F92100B6912B /* UITextView+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 3506C9D21DE3F92100B6912B /* UITextView+Placeholder.m */; };
+		3506C9E21DE3F92100B6912B /* UIView+XRCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3506C9D41DE3F92100B6912B /* UIView+XRCategory.m */; };
+		3506C9E81DE3F97100B6912B /* XRNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3506C9E51DE3F97100B6912B /* XRNavigationViewController.m */; };
+		3506C9E91DE3F97100B6912B /* XRTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3506C9E71DE3F97100B6912B /* XRTabBarViewController.m */; };
+		3506C9F51DE3FA6A00B6912B /* XRAnimtion.m in Sources */ = {isa = PBXBuildFile; fileRef = 3506C9F41DE3FA6A00B6912B /* XRAnimtion.m */; };
+		3506C9FC1DE3FA7500B6912B /* CornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 3506C9F71DE3FA7500B6912B /* CornerRadius.m */; };
+		3506C9FD1DE3FA7500B6912B /* FactoryUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 3506C9F91DE3FA7500B6912B /* FactoryUI.m */; };
+		3506C9FE1DE3FA7500B6912B /* XRFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 3506C9FB1DE3FA7500B6912B /* XRFont.m */; };
+		3506CA011DE4286100B6912B /* XRBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3506CA001DE4286100B6912B /* XRBaseViewController.m */; };
+		3FD34697B2BF2AF0815242AE /* libPods-netgameTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E8C681F2A977E5F8BD9FAD29 /* libPods-netgameTests.a */; };
+		4902BD72B2937AD631AB2453 /* libPods-netgameUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 487C016C280CE4ABDE0CD80F /* libPods-netgameUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +59,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		27077901F1DF7E8834954659 /* Pods-netgame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-netgame.debug.xcconfig"; path = "Pods/Target Support Files/Pods-netgame/Pods-netgame.debug.xcconfig"; sourceTree = "<group>"; };
 		3506C94A1DE2D57D00B6912B /* netgame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = netgame.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3506C94E1DE2D57D00B6912B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3506C9501DE2D57D00B6912B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		3506C9511DE2D57D00B6912B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3506C9531DE2D57D00B6912B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3506C9541DE2D57D00B6912B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		3506C9571DE2D57D00B6912B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3506C9591DE2D57D00B6912B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3506C95C1DE2D57D00B6912B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3506C95E1DE2D57D00B6912B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +70,69 @@
 		3506C96E1DE2D57D00B6912B /* netgameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = netgameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3506C9721DE2D57D00B6912B /* netgameUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = netgameUITests.m; sourceTree = "<group>"; };
 		3506C9741DE2D57D00B6912B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3506C9871DE301EE00B6912B /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3506C9881DE301EE00B6912B /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3506C98B1DE301EE00B6912B /* XRAPIAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRAPIAgent.h; sourceTree = "<group>"; };
+		3506C98C1DE301EE00B6912B /* XRAPIAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XRAPIAgent.m; sourceTree = "<group>"; };
+		3506C98F1DE301EE00B6912B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3506C9901DE301EE00B6912B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3506C9911DE301EE00B6912B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3506C9B91DE3F92100B6912B /* NSData+XRCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+XRCategory.h"; sourceTree = "<group>"; };
+		3506C9BA1DE3F92100B6912B /* NSData+XRCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+XRCategory.m"; sourceTree = "<group>"; };
+		3506C9BB1DE3F92100B6912B /* NSDate+XRCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+XRCategory.h"; sourceTree = "<group>"; };
+		3506C9BC1DE3F92100B6912B /* NSDate+XRCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+XRCategory.m"; sourceTree = "<group>"; };
+		3506C9BD1DE3F92100B6912B /* NSDictionary+XRCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+XRCategory.h"; sourceTree = "<group>"; };
+		3506C9BE1DE3F92100B6912B /* NSDictionary+XRCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+XRCategory.m"; sourceTree = "<group>"; };
+		3506C9BF1DE3F92100B6912B /* NSObject+XRCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+XRCategory.h"; sourceTree = "<group>"; };
+		3506C9C01DE3F92100B6912B /* NSObject+XRCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+XRCategory.m"; sourceTree = "<group>"; };
+		3506C9C11DE3F92100B6912B /* NSString+XRCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XRCategory.h"; sourceTree = "<group>"; };
+		3506C9C21DE3F92100B6912B /* NSString+XRCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XRCategory.m"; sourceTree = "<group>"; };
+		3506C9C31DE3F92100B6912B /* UIApplication+XRCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+XRCategory.h"; sourceTree = "<group>"; };
+		3506C9C41DE3F92100B6912B /* UIApplication+XRCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+XRCategory.m"; sourceTree = "<group>"; };
+		3506C9C51DE3F92100B6912B /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		3506C9C61DE3F92100B6912B /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
+		3506C9C71DE3F92100B6912B /* UICollectionViewCell+XRCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionViewCell+XRCategory.h"; sourceTree = "<group>"; };
+		3506C9C81DE3F92100B6912B /* UICollectionViewCell+XRCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionViewCell+XRCategory.m"; sourceTree = "<group>"; };
+		3506C9C91DE3F92100B6912B /* UIColor+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extend.h"; sourceTree = "<group>"; };
+		3506C9CA1DE3F92100B6912B /* UIColor+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extend.m"; sourceTree = "<group>"; };
+		3506C9CB1DE3F92100B6912B /* UIDevice+XRCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+XRCategory.h"; sourceTree = "<group>"; };
+		3506C9CC1DE3F92100B6912B /* UIDevice+XRCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+XRCategory.m"; sourceTree = "<group>"; };
+		3506C9CD1DE3F92100B6912B /* UITableView+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+YYAdd.h"; sourceTree = "<group>"; };
+		3506C9CE1DE3F92100B6912B /* UITableView+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+YYAdd.m"; sourceTree = "<group>"; };
+		3506C9CF1DE3F92100B6912B /* UITableViewCell+XRCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+XRCategory.h"; sourceTree = "<group>"; };
+		3506C9D01DE3F92100B6912B /* UITableViewCell+XRCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+XRCategory.m"; sourceTree = "<group>"; };
+		3506C9D11DE3F92100B6912B /* UITextView+Placeholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+Placeholder.h"; sourceTree = "<group>"; };
+		3506C9D21DE3F92100B6912B /* UITextView+Placeholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Placeholder.m"; sourceTree = "<group>"; };
+		3506C9D31DE3F92100B6912B /* UIView+XRCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XRCategory.h"; sourceTree = "<group>"; };
+		3506C9D41DE3F92100B6912B /* UIView+XRCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XRCategory.m"; sourceTree = "<group>"; };
+		3506C9E41DE3F97100B6912B /* XRNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRNavigationViewController.h; sourceTree = "<group>"; };
+		3506C9E51DE3F97100B6912B /* XRNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XRNavigationViewController.m; sourceTree = "<group>"; };
+		3506C9E61DE3F97100B6912B /* XRTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRTabBarViewController.h; sourceTree = "<group>"; };
+		3506C9E71DE3F97100B6912B /* XRTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XRTabBarViewController.m; sourceTree = "<group>"; };
+		3506C9EA1DE3F9A000B6912B /* XRPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRPrefixHeader.pch; sourceTree = "<group>"; };
+		3506C9EE1DE3FA5100B6912B /* XRColorMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRColorMacro.h; sourceTree = "<group>"; };
+		3506C9EF1DE3FA5100B6912B /* XRDeviceMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRDeviceMacro.h; sourceTree = "<group>"; };
+		3506C9F01DE3FA5100B6912B /* XRFontMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRFontMacro.h; sourceTree = "<group>"; };
+		3506C9F11DE3FA5100B6912B /* XRGeometryMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRGeometryMacro.h; sourceTree = "<group>"; };
+		3506C9F21DE3FA5100B6912B /* XRImageMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRImageMacro.h; sourceTree = "<group>"; };
+		3506C9F31DE3FA6A00B6912B /* XRAnimtion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRAnimtion.h; sourceTree = "<group>"; };
+		3506C9F41DE3FA6A00B6912B /* XRAnimtion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XRAnimtion.m; sourceTree = "<group>"; };
+		3506C9F61DE3FA7500B6912B /* CornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CornerRadius.h; sourceTree = "<group>"; };
+		3506C9F71DE3FA7500B6912B /* CornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CornerRadius.m; sourceTree = "<group>"; };
+		3506C9F81DE3FA7500B6912B /* FactoryUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactoryUI.h; sourceTree = "<group>"; };
+		3506C9F91DE3FA7500B6912B /* FactoryUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactoryUI.m; sourceTree = "<group>"; };
+		3506C9FA1DE3FA7500B6912B /* XRFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRFont.h; sourceTree = "<group>"; };
+		3506C9FB1DE3FA7500B6912B /* XRFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XRFont.m; sourceTree = "<group>"; };
+		3506C9FF1DE4286100B6912B /* XRBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRBaseViewController.h; sourceTree = "<group>"; };
+		3506CA001DE4286100B6912B /* XRBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XRBaseViewController.m; sourceTree = "<group>"; };
+		487C016C280CE4ABDE0CD80F /* libPods-netgameUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-netgameUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C6175A3BCED9BB6C879C6F7 /* Pods-netgameTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-netgameTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-netgameTests/Pods-netgameTests.debug.xcconfig"; sourceTree = "<group>"; };
+		812254A834A83BE931EBB034 /* libPods-netgame.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-netgame.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		936D1054A4DC581136DC7E95 /* Pods-netgameUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-netgameUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-netgameUITests/Pods-netgameUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AAFE4AC49EA6361FFFF91E37 /* Pods-netgameUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-netgameUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-netgameUITests/Pods-netgameUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B5ED444F2C29227918A77413 /* Pods-netgame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-netgame.release.xcconfig"; path = "Pods/Target Support Files/Pods-netgame/Pods-netgame.release.xcconfig"; sourceTree = "<group>"; };
+		E8C681F2A977E5F8BD9FAD29 /* libPods-netgameTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-netgameTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBA57E4366312C67C1D73712 /* Pods-netgameTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-netgameTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-netgameTests/Pods-netgameTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +140,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E7AAC4C1712AE9FB084A4FA /* libPods-netgame.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +148,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FD34697B2BF2AF0815242AE /* libPods-netgameTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +156,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4902BD72B2937AD631AB2453 /* libPods-netgameUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +170,8 @@
 				3506C9661DE2D57D00B6912B /* netgameTests */,
 				3506C9711DE2D57D00B6912B /* netgameUITests */,
 				3506C94B1DE2D57D00B6912B /* Products */,
+				7B1AF23B5CBF260E9E7ABE8C /* Pods */,
+				5D74A328B352D493D95AF449 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +188,7 @@
 		3506C94C1DE2D57D00B6912B /* netgame */ = {
 			isa = PBXGroup;
 			children = (
-				3506C9501DE2D57D00B6912B /* AppDelegate.h */,
-				3506C9511DE2D57D00B6912B /* AppDelegate.m */,
-				3506C9531DE2D57D00B6912B /* ViewController.h */,
-				3506C9541DE2D57D00B6912B /* ViewController.m */,
-				3506C9561DE2D57D00B6912B /* Main.storyboard */,
-				3506C9591DE2D57D00B6912B /* Assets.xcassets */,
-				3506C95B1DE2D57D00B6912B /* LaunchScreen.storyboard */,
-				3506C95E1DE2D57D00B6912B /* Info.plist */,
+				3506C9841DE301EE00B6912B /* Classes */,
 				3506C94D1DE2D57D00B6912B /* Supporting Files */,
 			);
 			path = netgame;
@@ -117,7 +197,10 @@
 		3506C94D1DE2D57D00B6912B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3506C94E1DE2D57D00B6912B /* main.m */,
+				3506C95B1DE2D57D00B6912B /* LaunchScreen.storyboard */,
+				3506C9591DE2D57D00B6912B /* Assets.xcassets */,
+				3506C9EA1DE3F9A000B6912B /* XRPrefixHeader.pch */,
+				3506C95E1DE2D57D00B6912B /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -140,6 +223,186 @@
 			path = netgameUITests;
 			sourceTree = "<group>";
 		};
+		3506C9841DE301EE00B6912B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3506C9851DE301EE00B6912B /* Category */,
+				3506C9861DE301EE00B6912B /* Controller */,
+				3506C9891DE301EE00B6912B /* Lib */,
+				3506C98A1DE301EE00B6912B /* Main */,
+				3506C98D1DE301EE00B6912B /* Model */,
+				3506C98E1DE301EE00B6912B /* Other */,
+				3506C9921DE301EE00B6912B /* Tool */,
+				3506C9931DE301EE00B6912B /* View */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3506C9851DE301EE00B6912B /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				3506C9B91DE3F92100B6912B /* NSData+XRCategory.h */,
+				3506C9BA1DE3F92100B6912B /* NSData+XRCategory.m */,
+				3506C9BB1DE3F92100B6912B /* NSDate+XRCategory.h */,
+				3506C9BC1DE3F92100B6912B /* NSDate+XRCategory.m */,
+				3506C9BD1DE3F92100B6912B /* NSDictionary+XRCategory.h */,
+				3506C9BE1DE3F92100B6912B /* NSDictionary+XRCategory.m */,
+				3506C9BF1DE3F92100B6912B /* NSObject+XRCategory.h */,
+				3506C9C01DE3F92100B6912B /* NSObject+XRCategory.m */,
+				3506C9C11DE3F92100B6912B /* NSString+XRCategory.h */,
+				3506C9C21DE3F92100B6912B /* NSString+XRCategory.m */,
+				3506C9C31DE3F92100B6912B /* UIApplication+XRCategory.h */,
+				3506C9C41DE3F92100B6912B /* UIApplication+XRCategory.m */,
+				3506C9C51DE3F92100B6912B /* UIBarButtonItem+Extension.h */,
+				3506C9C61DE3F92100B6912B /* UIBarButtonItem+Extension.m */,
+				3506C9C71DE3F92100B6912B /* UICollectionViewCell+XRCategory.h */,
+				3506C9C81DE3F92100B6912B /* UICollectionViewCell+XRCategory.m */,
+				3506C9C91DE3F92100B6912B /* UIColor+Extend.h */,
+				3506C9CA1DE3F92100B6912B /* UIColor+Extend.m */,
+				3506C9CB1DE3F92100B6912B /* UIDevice+XRCategory.h */,
+				3506C9CC1DE3F92100B6912B /* UIDevice+XRCategory.m */,
+				3506C9CD1DE3F92100B6912B /* UITableView+YYAdd.h */,
+				3506C9CE1DE3F92100B6912B /* UITableView+YYAdd.m */,
+				3506C9CF1DE3F92100B6912B /* UITableViewCell+XRCategory.h */,
+				3506C9D01DE3F92100B6912B /* UITableViewCell+XRCategory.m */,
+				3506C9D11DE3F92100B6912B /* UITextView+Placeholder.h */,
+				3506C9D21DE3F92100B6912B /* UITextView+Placeholder.m */,
+				3506C9D31DE3F92100B6912B /* UIView+XRCategory.h */,
+				3506C9D41DE3F92100B6912B /* UIView+XRCategory.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		3506C9861DE301EE00B6912B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3506C9E31DE3F94700B6912B /* BaseController */,
+				3506C9871DE301EE00B6912B /* ViewController.h */,
+				3506C9881DE301EE00B6912B /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3506C9891DE301EE00B6912B /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		3506C98A1DE301EE00B6912B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				3506C98B1DE301EE00B6912B /* XRAPIAgent.h */,
+				3506C98C1DE301EE00B6912B /* XRAPIAgent.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		3506C98D1DE301EE00B6912B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3506C98E1DE301EE00B6912B /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				3506C98F1DE301EE00B6912B /* AppDelegate.h */,
+				3506C9901DE301EE00B6912B /* AppDelegate.m */,
+				3506C9911DE301EE00B6912B /* main.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		3506C9921DE301EE00B6912B /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				3506C9EB1DE3FA3200B6912B /* Animation */,
+				3506C9EC1DE3FA3200B6912B /* Config */,
+				3506C9ED1DE3FA3200B6912B /* UI */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		3506C9931DE301EE00B6912B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3506C9E31DE3F94700B6912B /* BaseController */ = {
+			isa = PBXGroup;
+			children = (
+				3506C9E41DE3F97100B6912B /* XRNavigationViewController.h */,
+				3506C9E51DE3F97100B6912B /* XRNavigationViewController.m */,
+				3506C9E61DE3F97100B6912B /* XRTabBarViewController.h */,
+				3506C9E71DE3F97100B6912B /* XRTabBarViewController.m */,
+				3506C9FF1DE4286100B6912B /* XRBaseViewController.h */,
+				3506CA001DE4286100B6912B /* XRBaseViewController.m */,
+			);
+			path = BaseController;
+			sourceTree = "<group>";
+		};
+		3506C9EB1DE3FA3200B6912B /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				3506C9F31DE3FA6A00B6912B /* XRAnimtion.h */,
+				3506C9F41DE3FA6A00B6912B /* XRAnimtion.m */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		3506C9EC1DE3FA3200B6912B /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				3506C9EE1DE3FA5100B6912B /* XRColorMacro.h */,
+				3506C9EF1DE3FA5100B6912B /* XRDeviceMacro.h */,
+				3506C9F01DE3FA5100B6912B /* XRFontMacro.h */,
+				3506C9F11DE3FA5100B6912B /* XRGeometryMacro.h */,
+				3506C9F21DE3FA5100B6912B /* XRImageMacro.h */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		3506C9ED1DE3FA3200B6912B /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				3506C9F61DE3FA7500B6912B /* CornerRadius.h */,
+				3506C9F71DE3FA7500B6912B /* CornerRadius.m */,
+				3506C9F81DE3FA7500B6912B /* FactoryUI.h */,
+				3506C9F91DE3FA7500B6912B /* FactoryUI.m */,
+				3506C9FA1DE3FA7500B6912B /* XRFont.h */,
+				3506C9FB1DE3FA7500B6912B /* XRFont.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		5D74A328B352D493D95AF449 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				812254A834A83BE931EBB034 /* libPods-netgame.a */,
+				E8C681F2A977E5F8BD9FAD29 /* libPods-netgameTests.a */,
+				487C016C280CE4ABDE0CD80F /* libPods-netgameUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B1AF23B5CBF260E9E7ABE8C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				27077901F1DF7E8834954659 /* Pods-netgame.debug.xcconfig */,
+				B5ED444F2C29227918A77413 /* Pods-netgame.release.xcconfig */,
+				5C6175A3BCED9BB6C879C6F7 /* Pods-netgameTests.debug.xcconfig */,
+				FBA57E4366312C67C1D73712 /* Pods-netgameTests.release.xcconfig */,
+				AAFE4AC49EA6361FFFF91E37 /* Pods-netgameUITests.debug.xcconfig */,
+				936D1054A4DC581136DC7E95 /* Pods-netgameUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +410,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3506C9771DE2D57D00B6912B /* Build configuration list for PBXNativeTarget "netgame" */;
 			buildPhases = (
+				4CE348A2F371AFBE13EFF024 /* [CP] Check Pods Manifest.lock */,
 				3506C9461DE2D57D00B6912B /* Sources */,
 				3506C9471DE2D57D00B6912B /* Frameworks */,
 				3506C9481DE2D57D00B6912B /* Resources */,
+				CCDFD4A323CC541EF4E08592 /* [CP] Embed Pods Frameworks */,
+				79DCB1164428B7B48524CE35 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +430,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3506C97A1DE2D57D00B6912B /* Build configuration list for PBXNativeTarget "netgameTests" */;
 			buildPhases = (
+				F1F8E149E3A485EBE452D205 /* [CP] Check Pods Manifest.lock */,
 				3506C95F1DE2D57D00B6912B /* Sources */,
 				3506C9601DE2D57D00B6912B /* Frameworks */,
 				3506C9611DE2D57D00B6912B /* Resources */,
+				277A5A2000C10530437E37F0 /* [CP] Embed Pods Frameworks */,
+				F289D152BC0EFF21E4AA2ACF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +451,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3506C97D1DE2D57D00B6912B /* Build configuration list for PBXNativeTarget "netgameUITests" */;
 			buildPhases = (
+				EB7E6F1F93AE11E97D43C920 /* [CP] Check Pods Manifest.lock */,
 				3506C96A1DE2D57D00B6912B /* Sources */,
 				3506C96B1DE2D57D00B6912B /* Frameworks */,
 				3506C96C1DE2D57D00B6912B /* Resources */,
+				34F3B8D47ED77AE22DFE6454 /* [CP] Copy Pods Resources */,
+				9A1697A48977210561BF251E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -251,7 +523,6 @@
 			files = (
 				3506C95D1DE2D57D00B6912B /* LaunchScreen.storyboard in Resources */,
 				3506C95A1DE2D57D00B6912B /* Assets.xcassets in Resources */,
-				3506C9581DE2D57D00B6912B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,14 +542,174 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		277A5A2000C10530437E37F0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-netgameTests/Pods-netgameTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34F3B8D47ED77AE22DFE6454 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-netgameUITests/Pods-netgameUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4CE348A2F371AFBE13EFF024 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		79DCB1164428B7B48524CE35 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-netgame/Pods-netgame-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A1697A48977210561BF251E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-netgameUITests/Pods-netgameUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCDFD4A323CC541EF4E08592 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-netgame/Pods-netgame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB7E6F1F93AE11E97D43C920 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F1F8E149E3A485EBE452D205 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F289D152BC0EFF21E4AA2ACF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-netgameTests/Pods-netgameTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3506C9461DE2D57D00B6912B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3506C9551DE2D57D00B6912B /* ViewController.m in Sources */,
-				3506C9521DE2D57D00B6912B /* AppDelegate.m in Sources */,
-				3506C94F1DE2D57D00B6912B /* main.m in Sources */,
+				3506C9951DE301EE00B6912B /* XRAPIAgent.m in Sources */,
+				3506C9DE1DE3F92100B6912B /* UIDevice+XRCategory.m in Sources */,
+				3506C9D71DE3F92100B6912B /* NSDictionary+XRCategory.m in Sources */,
+				3506C9F51DE3FA6A00B6912B /* XRAnimtion.m in Sources */,
+				3506C9DA1DE3F92100B6912B /* UIApplication+XRCategory.m in Sources */,
+				3506C9941DE301EE00B6912B /* ViewController.m in Sources */,
+				3506C9E11DE3F92100B6912B /* UITextView+Placeholder.m in Sources */,
+				3506C9DF1DE3F92100B6912B /* UITableView+YYAdd.m in Sources */,
+				3506C9DC1DE3F92100B6912B /* UICollectionViewCell+XRCategory.m in Sources */,
+				3506CA011DE4286100B6912B /* XRBaseViewController.m in Sources */,
+				3506C9FD1DE3FA7500B6912B /* FactoryUI.m in Sources */,
+				3506C9E21DE3F92100B6912B /* UIView+XRCategory.m in Sources */,
+				3506C9D81DE3F92100B6912B /* NSObject+XRCategory.m in Sources */,
+				3506C9D91DE3F92100B6912B /* NSString+XRCategory.m in Sources */,
+				3506C9DB1DE3F92100B6912B /* UIBarButtonItem+Extension.m in Sources */,
+				3506C9E91DE3F97100B6912B /* XRTabBarViewController.m in Sources */,
+				3506C9971DE301EE00B6912B /* main.m in Sources */,
+				3506C9E01DE3F92100B6912B /* UITableViewCell+XRCategory.m in Sources */,
+				3506C9961DE301EE00B6912B /* AppDelegate.m in Sources */,
+				3506C9D61DE3F92100B6912B /* NSDate+XRCategory.m in Sources */,
+				3506C9FC1DE3FA7500B6912B /* CornerRadius.m in Sources */,
+				3506C9FE1DE3FA7500B6912B /* XRFont.m in Sources */,
+				3506C9D51DE3F92100B6912B /* NSData+XRCategory.m in Sources */,
+				3506C9DD1DE3F92100B6912B /* UIColor+Extend.m in Sources */,
+				3506C9E81DE3F97100B6912B /* XRNavigationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,14 +745,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3506C9561DE2D57D00B6912B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3506C9571DE2D57D00B6912B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3506C95B1DE2D57D00B6912B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -425,9 +848,11 @@
 		};
 		3506C9781DE2D57D00B6912B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27077901F1DF7E8834954659 /* Pods-netgame.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = S6C7M3S5Q2;
+				GCC_PREFIX_HEADER = netgame/XRPrefixHeader.pch;
 				INFOPLIST_FILE = netgame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = XR.netgame;
@@ -437,9 +862,11 @@
 		};
 		3506C9791DE2D57D00B6912B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5ED444F2C29227918A77413 /* Pods-netgame.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = S6C7M3S5Q2;
+				GCC_PREFIX_HEADER = netgame/XRPrefixHeader.pch;
 				INFOPLIST_FILE = netgame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = XR.netgame;
@@ -449,6 +876,7 @@
 		};
 		3506C97B1DE2D57D00B6912B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C6175A3BCED9BB6C879C6F7 /* Pods-netgameTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = S6C7M3S5Q2;
@@ -462,6 +890,7 @@
 		};
 		3506C97C1DE2D57D00B6912B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBA57E4366312C67C1D73712 /* Pods-netgameTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = S6C7M3S5Q2;
@@ -475,6 +904,7 @@
 		};
 		3506C97E1DE2D57D00B6912B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAFE4AC49EA6361FFFF91E37 /* Pods-netgameUITests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = S6C7M3S5Q2;
 				INFOPLIST_FILE = netgameUITests/Info.plist;
@@ -487,6 +917,7 @@
 		};
 		3506C97F1DE2D57D00B6912B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 936D1054A4DC581136DC7E95 /* Pods-netgameUITests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = S6C7M3S5Q2;
 				INFOPLIST_FILE = netgameUITests/Info.plist;
@@ -516,6 +947,7 @@
 				3506C9791DE2D57D00B6912B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3506C97A1DE2D57D00B6912B /* Build configuration list for PBXNativeTarget "netgameTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +956,7 @@
 				3506C97C1DE2D57D00B6912B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3506C97D1DE2D57D00B6912B /* Build configuration list for PBXNativeTarget "netgameUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +965,7 @@
 				3506C97F1DE2D57D00B6912B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
